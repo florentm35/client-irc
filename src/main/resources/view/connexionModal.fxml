@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="fr.florent.irc.client.controleur.ConnectionModal"
+      prefWidth="300.0">
+    <HBox>
+        <Label text="Host :"/>
+        <TextField fx:id="host" text="drlazor.be"/>
+    </HBox>
+    <HBox>
+        <Label text="Port :"/>
+        <TextField fx:id="port" text="6667"/>
+    </HBox>
+    <HBox>
+        <Label text="User name :"/>
+        <TextField fx:id="name" text="Florent"/>
+    </HBox>
+
+    <Button text="Connection" fx:id="btnConnection"/>
+</VBox>
